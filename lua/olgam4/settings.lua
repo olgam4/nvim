@@ -16,15 +16,6 @@ vim.cmd [[ set formatoptions-=o ]]
 vim.g.gitblame_enabled = 0
 vim.cmd [[ let g:neovide_input_use_logo = v:true ]]
 
-require 'presence':setup({
-  editing_text        = "Writting blazingly fast...",
-  file_explorer_text  = "Browsing NvimTree",
-  git_commit_text     = "Committing changes",
-  plugin_manager_text = "Managing plugins",
-  reading_text        = "Reading some user story",
-  workspace_text      = "Working @ Radio-Can",
-})
-
 local rt = require 'rust-tools'
 rt.setup({
   server = {
