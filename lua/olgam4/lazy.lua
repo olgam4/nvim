@@ -19,6 +19,7 @@ require('lazy').setup {
   },
 
   'eandrju/cellular-automaton.nvim',
+  'kyazdani42/nvim-web-devicons',
 
   {
     'nvim-telescope/telescope.nvim',
@@ -116,7 +117,6 @@ require('lazy').setup {
 
   -- git
   'airblade/vim-gitgutter', -- TODO: setup,
-  'f-person/git-blame.nvim',
   { 'TimUntersberger/neogit', dependencies = 'nvim-lua/plenary.nvim' },
   { 'mbbill/undotree', cmd = 'UndotreeToggle' },
 
