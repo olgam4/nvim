@@ -94,7 +94,7 @@ require('lazy').setup {
   'ray-x/aurora',
   'rebelot/kanagawa.nvim',
   { 'catppuccin/nvim', as = "cattpuccin" },
-  { 'kyoz/purify', rtp = 'vim' },
+  { 'kyoz/purify',     rtp = 'vim' },
 
   {
     'NTBBloodbath/galaxyline.nvim',
@@ -118,7 +118,10 @@ require('lazy').setup {
   -- git
   'airblade/vim-gitgutter', -- TODO: setup,
   { 'TimUntersberger/neogit', dependencies = 'nvim-lua/plenary.nvim' },
-  { 'mbbill/undotree', cmd = 'UndotreeToggle' },
+  { 'mbbill/undotree',        cmd = 'UndotreeToggle' },
+
+  -- lsp
+  { 'simrat39/rust-tools.nvim' },
 
   {
     'VonHeikemen/lsp-zero.nvim',
@@ -136,13 +139,8 @@ require('lazy').setup {
       { 'hrsh7th/cmp-nvim-lsp' },
       { 'hrsh7th/cmp-nvim-lua' },
 
-      { 'simrat39/rust-tools.nvim' },
-
       -- Snippets
       { 'L3MON4D3/LuaSnip' },
-      -- Snippet Collection (Optional)
-      { 'rafamadriz/friendly-snippets' },
     }
   },
-  { 'ray-x/lsp_signature.nvim' },
 }
