@@ -65,7 +65,6 @@ vim.keymap.set('v', '<D-c>', '"*y')
 
 require('olgam4.keymappings.func')
 
-require('olgam4.keymappings.plugin.gitblame')
 require('olgam4.keymappings.plugin.harpoon')
 require('olgam4.keymappings.plugin.leap')
 require('olgam4.keymappings.plugin.lsp')
